@@ -1,0 +1,98 @@
+[
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "In summary, the Minnesota State Mankato security report states that you were stopped on stadium road last Friday, cited for driving under the influence and you're transported to detox. Plus the report lists your age as 20. Dylan, what is the accuracy of the report? And can you share with me some details leading up to the incident?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Uh, I guess that sound- that sounds right. I mean, I was- I was kinda drunk and it happened like a week ago. I just, I drove over to my friend's house, um, just to go watch the game and, you know, we're having a couple beers and next thing I know the Vikings are kind of losing pretty big. So we drank a little bit more than usual. And I mean, at the end I had to get home and I couldn't find a ride. So I-I just drove."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "You decided to drink more than you intended because you were disappointed at how the Vikings were playing. And when your roommate couldn't give you a ride home, you decided to drive yourself home. Did I get that right?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah. That's-that's exactly how it happened. I mean, I'm a normal college kid. I like to drink and hanging out with my buddies. I mean, I, it wasn't a big house party or anything and I got busted."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Yeah, I understand that your intention was to have a good time while watching the game with your friends. You didn't think about what could go wrong when you drank alcohol underage because you were at your friend's house and not a big party and you made an effort to be safe by finding a ride home."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah. I tried to be safe. I mean, I tried to call her roommate, but I don't know, getting in trouble anyways."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Dylan, you told me what brought you here today, what do you think the problem really is?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Um, well, I wanna say I have a drinking problem. I think I'd probably have more of a, like getting caught problem. I mean, my friends, they-they drink like fishes and I-- they don't ever get caught and you got me over here and I get caught and they left."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Sounds like you attribute your current situation to bad luck. If that's what you believe and you don't attempt to make any change in your behavior, what consequences might result?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "I guess- I guess more problems with police and school and I really don't have like the time or the money for any of that."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "How important is it that you avoid future problems with the police or school, Dylan?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "God. It's, I guess, super important, because just-just going to detox alone was-was awful, the experience-- I don't want to do that again. And my dad said if I get suspended from school, um, I have to go- I have to go work on my uncle's farm in Iowa and that would just kill my social life. I won't see any of my friends and I mean, it's already bad enough, like my parents took my car away when I got the DUI."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Yeah. What would you be willing to do to prevent going to detox again and getting suspended?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Well, I guess I- I guess the easy one is I wouldn't- I wouldn't drink so much and I try to avoid situations where I'm more-more likely to get in trouble. So probably I don't wanna drink so much."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "On a scale of 1 to 10, how confident are you that you'll be able to follow through with that plan with 10 being very confident?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Um, I guess I would say like, I don't know, like over halfway. So maybe like a six."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "What steps could you take to move that six to a seven or eight?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "I could probably, um, I don't know. I-I guess, well, the big thing would be like kind of where I drink so like drinking like if I'm only like in my apartment so thenI'm not risking myself to drive or like if I- if I go out to a party waiting till, like, I'm 21 to drink. Um, maybe find stuff to do that doesn't revolve around drinking, like, I'm guessing like a town this size there's got to be more to do than just drink."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "In what ways might your life be better if you succeed in \nmaking the changes you mentioned?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Um, I mean, I guess the big one would be like I won't- I won't be hungover all the time like I would make it to my 8:00 AMs then, well, even-even when I make it to my 8:00 AMs now like I just, I sleep like I wake up I'm like, \"Oh my god what's going on?\" And then I get to my 8:00 AM and I'll just sleep through and then miss just about everything that's on the test. So I think if I- if I reprioritize what is important to me, I probably help me succeed. I mean, in high school, I had a 3.5 GPA. So I know I could do it here."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "College is all about making choices. Can you tell me about your beliefs and values that influenced your decision-making and how do those beliefs and values align with the decisions you plan to make about drinking?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Um, I mean education is really important to me and-and also my family. My parents are always talking about it and I really- I really wanna be an international journalist, to be on the news like, I mean, I have the face for it, um. So I guess if I reprioritize my- if I reprioritize what I need to do I and I won't drink so much. I probably wouldn't be disappointing my parents and I'd be able to get a really good education."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Thanks for coming in for participating today. Your sanction will involve being placed on university disciplinary probation and attending an alcohol education seminar that will cost $150."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "All right, all right. When is the seminar?"
+  }
+]

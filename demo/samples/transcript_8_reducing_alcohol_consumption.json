@@ -1,0 +1,382 @@
+[
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Hi, Sarah, it's great to meet you. My name is Delwyn, and I'm a counselor here at the clinic. And I heard from your nurse practitioner that you recently had an annual exam in which the topics of smoking and alcohol use came up. Would you mind filling me in a little bit about that?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, um, last week I met with my nurse practitioner, and I ge-I guess she's worried with how much I'm smoking and drinking right now. I mean, I-I did agree I would work on the smoking and try to cut back on that. But, as far as the drinking, I-I don't really think I drink that much."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, you've decided you wanna cut back on your smoking a little bit, but, you're not really concerned about your drinking."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Right, I mean, I don't drink that much and, honestly, it-it's just a good way to relax."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "It's a nice sort of form of stress relief."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, exactly. You know, it's kind of like that me time at the end of the day."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Sort of escape from your hectic schedule."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah. You know, I have a two-year-old son, and then, I work full-time. And, I also started going back to school. So, you know, just trying to juggle all that stuff. You know, it's tiring, and so, you know, at the end of the day, I just- I wanna relax and enjoy myself."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, you're working, and then, on top of that, juggling being a single mom and going to school?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, and for work, you know, I'm a server. So, I'm on my feet all day, you know, and it's-it's really tiring."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "It's pretty exhausting work."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, you know, it's hard trying to please customers all day. And then, at the same time, I'm-I'm worrying, am I making enough money to support my son, you know?"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, you're not only doing really tiring work and going to school, but you're also worrying about your finances."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, and then, you know, with going back to school, you know, I have to figure out how I'm going to pay for everything. So, you know, i-it's just a lot right now."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Yeah, it does. It sounds like a lot that you're trying to deal with, and it makes sense that you feel like you need some kind of break or reward."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Mm-hmm."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, tell me a little bit more about your drinking. Tell me a little bit about how much you're drinking, and, um, the pattern, and what raised concern."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Well, that's the thing. I-I don't really understand what raised concern. I mean, I don't drink that much, you know. I've-I've gone up to maybe two drinks a day max, you know."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, you're drinking, perhaps, two drinks a day. Um, and I'm wondering, what have you heard about the recommendations for drinking levels?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Not much."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay, will you be interested in hearing about those recommendations?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Sure."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. Well, so, the recommendation for women is to have no more than three drinks a day, and no more than seven drinks over the course of a week. Yeah, um, and, really, the reason for those recommendations is to just reduce the risk that people have trouble with accidents, or chronic diseases. Like certain types of cancers, or high blood pressure, and then also psychological problems. I don't know what you think about all that?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "I don't know, i-it just surprises me because, I mean, two drinks a day, that-that doesn't seem like a problem or risky, you know. And, I have family members who drink a lot more than that per day, and, it's not a problem for them. So, i-it just surprises me."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "It just doesn't seem that abnormal to you, especially when you compare it with your family."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "No. And then, I don't know, I-I'm just getting kind of annoyed, honestly, because, you know, I did agree I would try to work on my smoking, you know. But, with this whole drinking thing, it's like everything that I enjoy, you know, is being taken away from me right now. And so, if I give up drinking, like, what am I going to have to enjoy myself, you know."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Yeah, you really feel like you need that reward."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "And then it also sounds like, um, your drinking has perhaps increased a little bit over time?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, I mean, I guess it has. Probably just with being so stressed out every day, you know. I mean, I'm in my second semester of school right now, and so, adding that to everything, uh, it's a lot. And, you know, I'm trying to figure out child carry. Um, normally, my mom will watch my son, but, lately, she can't always. And so, I'm always kind of worrying like, will she be able to, you know. So, i-it's just stressful."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Yeah, and so it sounds like you've noticed that the more stressed you're feeling, the more you're drinking."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, I-I guess that's right."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, let me summarize a little bit what you've told me. It sounds like you have a pretty hectic, stressful life, and you really feel like you need some kind of-"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Uh-huh."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "-reward or stress relief. Um, and then, on the other hand, you've noticed, um, that your drinking has increased a little bit over time. And also that the more stressed you're fe- you feel, the more you're inclined to drink."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, I'm wondering, have you noticed any problems from your drinking?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "No. I guess, you know, the one- the one thing I can think of is, I mean, there will be evenings when I just kind of want to get my son to bed a little earlier, just so that I can have that alone time to unwind, you know, maybe-maybe smoke, have a couple drinks. Um, but, I do feel guilty about that sometimes, because, I should enjoy spending time with my son, but, instead, you know, I'm just wanting to be by myself and relax, you know. So\u2014"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, you've noticed that it's starting to call to you a little bit in the evenings."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "And it's perhaps taking you away from things that are more important to you?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "And it doesn't feel good?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "No."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Yeah. And so, it sounds like there's a bit of a dilemma there, because-- And I guess we should be clear, it's not the occasional drink that's an issue. Um, it's-it's really the quantity of drinking, and-and whether your drinking is escalating and interfering with things that are, perhaps, more important."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "And you've perhaps never seen it in that light before."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "No. And, i-it's just, it's really hard to take in right now. I mean, yeah. I-I've never thought about it like this. And, so, you know, I-I do feel kind of worried."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "I-it seems like it-it would be quite a hard pattern to change."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah. I mean, i-it's part of my routine right now, and, you know, I-I don't want to sacrifice something I enjoy, but, you know, I'm trying really hard, you know, to be a good mom. I'm-I'm trying to, you know, go-go back to school. I'm trying to work. So, I don't know how I can do all of that if I don't have a way to enjoy myself or relax, you know?"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, it seems like it would be really difficult to change because it's something that's really important to you right now."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "But on the other hand, it does sound like there are things that you- that you value that you don't want the drinking to interfere with."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, I guess I'm wondering if you've given any thought to other ways in which you could cope with stress without relying on the drinking so much."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Well, you know, if there was some way that I could relieve some of my stress, I think I would feel better, and, you know, maybe at night, I wouldn't feel like I had to unwind in the same way."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, if you could somehow tackle some of these stressful issues, um, that could make a difference, and, what-what would that be, for example?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Um, you know, probably my biggest problem is just childcare. You know, my mom normally watches my son, but she's been kind of backing out lately. And so, I'm worrying, am I going to have to call into work today, am-am I going to have to miss class? You know, so, you know, worrying about that really stresses me out, you know."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, having more reliable childcare could make a big difference."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, definitely."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "And it sounds like your mom has been an option in the past, but perhaps not so much anymore."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah. I mean, she watches him so much. I think she's just probably getting stressed out too. And, I feel bad because, you know, it's not her son, so i-it shouldn't be her problem, but, I need something that I can rely on better."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, one thing that could make a big difference is if you could figure out some sort of more reliable, affordable childcare, and that would help you not want to drink as much."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Anything else?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Well, I mean, most of my problems always go back to money. You know, i-if I had more money, I could afford daycare, I could work less hours, you know? So, yeah. It's-it's normally related to money."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Yeah. It-it sounds like, um, you know, money could make a big difference, and you are working full time and trying to go to school to address that in the long run. Um, but on the other hand, you know, it sounds like you have some other ideas of cope- of how you might cope with stress better. Um, so, I guess I'm-I'm wondering, given our conversation so far, kind of where you are with everything."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Um, we started off talking about how your drinking has sort of drifted into a risky area, and it would be advisable to cut back. Um, but it sounds like you feel like that's fairly important to you and not something you necessarily want to do. But on the other hand, we've talked about ways in which that perhaps could be made a bit easier, but I'm not sure if you're ready to tackle that or pursue that right now. I'm just kind of wondering where you are."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah. I mean, I'm ready to consider changing my drinking, but, as far as actually doing it, I-I don't know. I mean, I have a lot of problems that I'm trying to work out right now."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, um, it would perhaps be helpful if you could narrow it down to just one thing, and what would that be?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Childcare, probably."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. Yeah. It sounds like from everything you're saying, that keeps coming up as one of the main issues. Um, so there may be some resources I can point you towards, but I'm- guess I'm wondering, have you looked into alternatives, more affordable, reliable childcare?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Not really. I mean, I just normally see if my mom can watch my son, so, you know, I haven't really looked around."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. Well, one thing you could consider is talking to one of our social workers, they sort of specialize in helping people who have a lot on their plate identifying resources that they may need, uh, things you haven't thought of or aren't aware of. So, I don't know, would you be interested in doing something like that?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, definitely."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. Great. Well, I can definitely set you up with that, and you can-"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Mm-hmm."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "-um, try to tackle, um, your childcare issue, um, with some assistance. Is there anything else you'd like to do, um, for example, would you be interested in talking with me again, um, just as things progress?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, I-I think I would. I mean, it's-it's been nice to just talk about everything that's going on."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Yeah. So, these are not problems that are going to go away in a week. It's going to take some time to resolve. Okay, great. So, um, it sounds like we have a couple of things, uh, to pursue."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Mm-hmm."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Anything-anything else?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Mm-mm"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Would you be interested in perhaps thinking about setting a goal with respect to your drinking?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Well, I mean, I could at least try to going back to one drink a night instead of two."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. Try to cut back a bit and see how that goes."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah. I mean, I-I don't know how it's going to go, especially with trying to cut back on smoking already, but, I mean, I can try."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. So, you can give it a go and, I think doing managing, you might just learn a little bit about how easy or difficult it's going to be, and-and also what it's like to cope with stress in other ways."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. So, it sounds like we have two avenues to pursue, anything else?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "I don't think so."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. Well, that sounds good. So, why don't we meet again in a couple of weeks and you kind of update me on how cutting back on your drinking has gone, and also, what it was like when you met with a social worker? Sound good?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay, great. I look forward to talking next time."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Okay. Thanks."
+  }
+]

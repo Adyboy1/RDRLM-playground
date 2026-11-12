@@ -1,0 +1,370 @@
+[
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Thank you for coming in today, Katie. I'm looking forward to getting to know you, and maybe just wanna start off with just sharing a little bit about you and what brought you in today?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Uh, yeah, sure. Um, I guess, well, my doctor referred me to see you. Um, I guess he has some concerns about, um, my- my pregnancy and- and my baby. So, um, yeah, well, I'm doing what I'm told."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So you're following through on meeting with me today and you mentioned he has some concerns. Can you tell me a little bit about that?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Uh, yeah, he is concerned about my alcohol intake."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. And I'm wondering if you have any concerns about that."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Uh, no."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "No. Okay. So that's- that's not been an issue for you. Uh, it is an issue for him and not for you at this point."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Mm-hmm."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. So what about maybe sharing a little bit about your alcohol intake and maybe a little bit about what your- what your life's like a little bit for me today?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Um, okay. Uh, well, I guess I drink like a glass of wine at supper every night, and just to, you know, relax a little with my friends if I go out. So wine has always been a kind of a family tradition with supper. So-"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So it was kind of been a part of your culture a little bit, and you know, just find alcohol, maybe takes the edge off a little bit and-"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, and I, you know, I-I have friends who have drank during pregnancy, and-and I see articles on Facebook and-and, you know, things that show that there isn't really a clear link between, you know, abnormalities or, uh, yeah, I just- I just think it's kind of an old wives' tale. So, you know, I'm independent and I'm gonna- I'm gonna do what I want, it's my body."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. So you don't feel very comfortable with somebody telling you what you should be consuming, what kind of alcohol, and how much alcohol you should be consuming. And, um, it sounds like you've been getting some mixed messages, your doctor's saying there's no safe amount of alcohol you can drink, and asked you to come and see me. And then also, you've been checking- sounds like you've been checking things out a little bit."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah. You know, I've looked it up to see, you know, kinda what I can say back, you know, to support my argument."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, which is that, um, I'm going to do what I- do what I wanna do and what I know, right? So it's- yeah. I don't know, but, um, I'm here anyway. So-"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So you know yourself best and you wanna be sort of the boss of your body and you don't want somebody else telling you what- what's okay and what's not okay. And it seems like you're not maybe too concerned right now about your substance use."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Nope. I never have been."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. And I'm wondering if that concern is coming from, \"It's been okay. I've got these messages from friends.\""
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yep."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "\"Um, media has said it's okay to drink during alcohol. And so that concern, um, just sort of, I don't have it and, and maybe the doctor might be wrong.\""
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Mm-hmm. I think so."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "You're not sure if he's sort of playing things up a little bit there?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah. I mean, you know-"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "It might be a bit extreme to-"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "-to quit drinking. Um, I'm just wondering, have you, um, would you be open maybe to just kind of taking a look at what Canada's guidelines say about drinking? Um, is that something you'd be open to?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Like right now?"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Uh-"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "What if- uh, can I show you a brochure about that?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Uh, yeah, I guess."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Yeah?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Sure."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Well, if we take a look at the low-risk-alcohol drinking guidelines, what it says is for women, um, the safe limits are 10 drinks a week for women and 2 drinks a day. And that's if a woman isn't pregnant. And when it says in the guidelines, as far as drinking, uh, throughout pregnancy, there is no safe amount to drink during pregnancy. So really zero alcohol is, um, the woman should not be drinking any at all. And I'm just wondering what-what are your thoughts on that?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Well, you know, I've-I've heard these kinds of things before, but I just- I don't see the evidence. I don't see the risk, you know, I don't, you know, if someone can like prove to me, or show a direct link or something like that."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So when you see it here in kind of black and white, you're not sure if this is, uh, you know, enough-"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "It's the same thing."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "-to con- sort of convince you that-that it might be dangerous to be drinking through alcohol?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah. It's just a fancy little brochure saying what I've already known, I've already heard."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So you feel like, um, what the doctor's saying and this brochure just kind of feels like, yeah, it's just kind of blowing things up out of proportion a little bit."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Mm-hmm."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "And it sounds like you-you've got some solid information already that alcohol, you know, has been safe to-to have during pregnancy. Tell me about that information that you've-you've explored."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Um, well, I've looked up, um, different articles. Um, and I- as I said, I personally know people who haven't had any problems. Um, so that's about the extent."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Mm-hmm. You mentioned you looked up some articles and it sounds like evidence is really important to you. So, um, those articles, is that something recent? Um, you can tell me about that."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Like, uh, I don't like- have like a bibliography or anything."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Mm-hmm."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "So I can't really- I don't really know when those were published. It's just stuff I've found, supporting the way that I look at it."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So you felt like, um, the information that you found supports the values that you have of being able to be independent and autonomous, to be able to make your own choice and the information that your doctor shared or spoke to you about, and then this brochure kind of feels like that's challenging sort of your values."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah. Well, it's like all this brochure is saying is that, um, the same again, the same thing that I've heard, that the limits and that there is no safe amount of drink during pregnancy, but it's like, why not?"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Mm-hmm."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "You know, it's kind of like the \"why\" that it's like-"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Mm-hmm."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "-I never get that information."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Wha-what's the big deal if you're drinking and\u2014"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, like what kind of issues would that cause if any?"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Maybe we can kind of put that on the shelf for a moment, and we'll come back to it and sort of look at, you know, what is- what does the guidelines have to say about why. And, um, and-and I'm wondering if we can kind of just have a look for a moment at, um, your pregnancy, and is this something that you were- you were hoping to have a baby?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "That was something that you'd been planning?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yep."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. And I'm wondering as far as, um, bringing the baby into the world and, you know, your future as a parent, ho-how important is it to have a healthy baby to you?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Um, well, it's-it's really important to me. That's a big priority of mine is to have a healthy baby and bring him or her up well and-and, you know, be a good parent."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Mm. What does being a good parent look like? Tell me more about that."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Um, not-not like being there at home with them, not being absent, um, taking care of them, feeding them, um, changing their diaper, which I'm not excited about. Um, you know, kind of the- those basics."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Hmm. Kind of like protecting your baby and-"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "-guiding your baby and-"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Mm-hmm."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "-you know, nurturing that baby is really important to you-"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "-and raising your baby well?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, of course."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "That's something that- that really matters to you and, um, I'm-I'm hearing you say that, you know, protecting your baby is important to you and at the same time, um, kind of clashes with some of the information that's in the brochure."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Mm-hmm."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "What do you make about that- what do you think about that?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Um, well, I just don't know- I just don't know where-where these brochures get their information or-or anything from, like, where's the hard evidence essentially."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "You wanna see it in black and white."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "You wanna know that it's the latest and the greatest kind of thing. Um, this is information that, uh, that I have been sharing with you earlier, this is the latest information evidence-based, um, on the latest research since 2011 and, um, a lot of research has gone into what is-what is okay for a mom to consume, like, alcohol. There's the-the evidence that we have, um, but in the end, you choose what's best for you and what's best for your baby. What are your- what are your thoughts on that?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Um, well, it surprises me that that's based on research from out of 2011, um, and I must have missed that. I guess, you know, if it is, um, you know, I do wanna do what's best for my baby and for myself. And if I have to quit drinking, um, I guess ultimately I have to-I make that decision, um, but, um, that's a lot of, uh, information to take in today."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Mm-hmm, kind of feels like, you know, you were making some really good decisions about your baby. You've done research and you wanna be able to bring your baby up well and take care of your baby. And I-I can see that that's really important to you. I hear you saying that and it kind of feels like this information isn't kind of what you were expecting to hear."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Nope."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "What would you feel like would be helpful as far as next steps, like when you think about maybe moving away from drinking alcohol throughout the rest of your pregnancy?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Um, well, first things first, if I could take a brochure home maybe, um, you know, show it to my partner and-and-and get-get their support, um, I think that's really gonna help me, and kind of changing our-our habits, or, you know, putting the alcohol away, out of sight. Um, I think that's probably the best thing I can do, like, today when I get home."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Mm-hmm, that's some really significant steps you're talking about. You're talking about putting the alcohol away, that's huge. That's-that's really big steps."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "I really want to thank you for, you know, exploring this with me today, and I'm wondering if we can kind of continue this conversation again, and talk about those steps, and how it goes with talking to your partner about giving up drinking and, um, the- giving you a chance to do some more research and, you know, maybe looking through these brochures and kind of just coming back and sharing a little bit more about, you know, what you thought about the information and what feels right for you. Is that something you'd be open to?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, I think that- I think that would be a good idea, and maybe you could help me, yeah, with, like, ways to approach it because I think that my partner kind of has the same view that I- that I had. So-"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "We definitely can cover that again on our next meeting. Thank you for coming to see me."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah. Thank you."
+  }
+]

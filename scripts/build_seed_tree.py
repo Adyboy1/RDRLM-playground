@@ -53,26 +53,39 @@ SEED_SPEC = {
         "conditions": ["Client has had an injury or a physical health problem linked to their drinking"],
         "conclusion": "Harmful drinking: brief intervention plus medical follow-up",
         "case": "transcript_3_reducing_alcohol_consumption.json",
+        "false_branch": {
+            "conditions": ["Client is under the legal drinking age"],
+            "conclusion": "Underage heavy drinking: involve family or school and agree a safety plan",
+            "case": "transcript_21_reducing_alcohol_consumption.json",
+        },
     },
     "false_branch": {
         "conditions": ["Client is under the legal drinking age"],
         "conclusion": "Low-risk underage drinking: prevention and education",
         "case": "transcript_6_reducing_alcohol_consumption.json",
+        "true_branch": {
+            "conditions": ["Client has vomited or been sick from their own drinking"],
+            "conclusion": "Underage drinking with past intoxication: involve family or school and agree a safety plan",
+            "case": "transcript_13_reducing_alcohol_consumption.json",
+        },
     },
 }
 
 # Cases visitors can pick in the app (keep in sync with SAMPLE_CASES in app/app.py)
 DEMO_SAMPLES = [
     "transcript_2_reducing_alcohol_consumption.json",
+    "transcript_11_reducing_alcohol_consumption.json",
     "transcript_0_reducing_alcohol_consumption.json",
     "transcript_7_reducing_alcohol_consumption.json",
-    "transcript_5_reducing_alcohol_consumption.json",
+    "transcript_17_reducing_alcohol_consumption.json",
+    "transcript_8_reducing_alcohol_consumption.json",
 ]
 
 # Conditions the app suggests as examples; pre-checking them keeps manual-rule saving fast
 EXAMPLE_MANUAL_CONDITIONS = [
     "Client is pregnant",
     "Client drinks to cope with low mood or depression",
+    "Client drinks mainly to cope with stress or life pressures",
 ]
 
 
@@ -98,8 +111,9 @@ def build_node(spec: dict) -> dict:
 
 
 def save_cache():
+    # Only answers this run actually used are kept, so stale ones from an older tree drop out
     with open(CACHE_FILE, "w", encoding="utf-8") as f:
-        json.dump(llm_api.export_cache(), f, indent=1, ensure_ascii=False, sort_keys=True)
+        json.dump(llm_api.export_cache(used_only=True), f, indent=1, ensure_ascii=False, sort_keys=True)
 
 
 def main():

@@ -27,7 +27,7 @@ SAMPLES_DIR = os.path.join(DEMO_DIR, "samples")
 if not os.path.exists(STORAGE_DIR):
     os.makedirs(STORAGE_DIR)
 
-from rdr_engine import RDREngine, Node, Rule, Vertex, engine_from_dict
+from rdr_engine import RDREngine, Node, Rule, Vertex, engine_from_dict, next_rule_id
 from transcripts import file_to_text, json_to_text, SUPPORTED_TYPES
 from llm_api import (
     llm_get_differentiating_conditions,
@@ -63,23 +63,35 @@ MAX_TRANSCRIPT_CHARS = 60_000
 SAMPLE_CASES = [
     {
         "file": "transcript_2_reducing_alcohol_consumption.json",
-        "label": "University student who sprained her ankle on a pub crawl",
-        "hint": "The tree should already get this one right. Try **Agree**, which merges the case into the rule's reference profile.",
+        "label": "1. University student who sprained her ankle on a pub crawl",
+        "hint": "The tree should already get this one right (R1 → R2). Try **Agree**, which merges the case into R2's reference profile.",
+    },
+    {
+        "file": "transcript_11_reducing_alcohol_consumption.json",
+        "label": "2. Teenager who has tried alcohol once or twice",
+        "hint": "This one goes down the other side of the tree (R1 false → R3). Another clean **Agree**.",
     },
     {
         "file": "transcript_0_reducing_alcohol_consumption.json",
-        "label": "Evening wine drinking to cope with low mood",
-        "hint": "The general harm rule fires, but this client drinks to cope with depression. Try **Disagree** and add a more specific rule, e.g. from the AI's suggested differences.",
+        "label": "3. Evening wine drinking to cope with low mood",
+        "hint": "The general harm rule fires, but this client drinks to cope with depression. Try **Disagree** and build a more specific rule from the AI's suggested differences.",
     },
     {
         "file": "transcript_7_reducing_alcohol_consumption.json",
-        "label": "Drinking while pregnant",
+        "label": "4. Drinking while pregnant",
         "hint": "The harm rule fires again, but pregnancy calls for a different plan. **Disagree** and type the condition *Client is pregnant*; it becomes an exception to the harm rule.",
     },
     {
-        "file": "transcript_5_reducing_alcohol_consumption.json",
-        "label": "Around 20 drinks a week, injured leaving a bar",
-        "hint": "Another case for the harm rule. Analyze it after you've added your own rules to see whether they interfere.",
+        "file": "transcript_17_reducing_alcohol_consumption.json",
+        "label": "5. Another pregnant client, a glass of wine each night",
+        "hint": "No rule fires here. If you added a pregnancy rule in step 4, notice it didn't help: it sits under R2, and this case never got that far. "
+                "**Disagree** and add one on this branch too. In RDR, every rule applies only in its own context.",
+    },
+    {
+        "file": "transcript_8_reducing_alcohol_consumption.json",
+        "label": "6. Single working mum who drinks to unwind from stress",
+        "hint": "Your call. Do you **Agree** with the tree, or **Disagree** and teach it a stress-related rule "
+                "(e.g. *Client drinks mainly to cope with stress or life pressures*)?",
     },
 ]
 
@@ -216,18 +228,22 @@ def flash(message, kind="success"):
 # --- VISUALIZATION LOGIC ---
 
 def number_rules(root):
-    """Assigns rule numbers R1, R2, ... in the order rules appear (pre-order)."""
-    numbers = {}
+    """
+    Maps each rule to its number. Uses each rule's permanent rule_id when every rule has one
+    (demo trees); otherwise numbers rules in pre-order, as older saved trees have no ids.
+    """
+    nodes = []
 
     def walk(node):
-        if node is None:
-            return
-        numbers[id(node)] = len(numbers) + 1
-        walk(node.right)
-        walk(node.left)
+        if node is not None:
+            nodes.append(node)
+            walk(node.right)
+            walk(node.left)
 
     walk(root)
-    return numbers
+    if nodes and all(getattr(n, "rule_id", None) for n in nodes):
+        return {id(n): n.rule_id for n in nodes}
+    return {id(n): i + 1 for i, n in enumerate(nodes)}
 
 
 def pretty(text):
@@ -587,7 +603,7 @@ if st.session_state.get("show_revision_form") and st.session_state.get("interpre
     manual_conds_text = st.text_area(
         "Or enter your own conditions (one per line):",
         height=100,
-        placeholder="Example:\nClient is pregnant\nClient drinks to cope with low mood or depression",
+        placeholder="Example:\nClient is pregnant\nClient drinks mainly to cope with stress or life pressures",
         key=f"manual_{st.session_state.case_id}",
     )
 
@@ -624,6 +640,7 @@ if st.session_state.get("show_revision_form") and st.session_state.get("interpre
             if verified:
                 new_node = Node(Vertex(Rule(json.dumps(final_conditions), new_conclusion),
                                        st.session_state.current_summary))
+                new_node.rule_id = next_rule_id(engine.root)
                 source_file = st.session_state.current_source_file
 
                 if engine.root is None:
@@ -659,7 +676,7 @@ if engine.root:
                 collect(node.left, out)
             return out
 
-        for node in collect(engine.root, []):
+        for node in sorted(collect(engine.root, []), key=lambda n: numbers[id(n)]):
             st.markdown(f"**R{numbers[id(node)]}: {node.vertex.rule.conclusions}**")
             st.markdown("IF " + " AND ".join(f"*{c}*" for c in parse_conditions(node.vertex.rule.conditions)))
             source = getattr(node, "source", None)

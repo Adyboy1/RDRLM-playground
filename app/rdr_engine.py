@@ -279,7 +279,27 @@ def engine_from_dict(data: dict, in_memory_log: bool = True) -> "RDREngine":
     engine = RDREngine(in_memory_log=in_memory_log)
     engine.root = node_from_dict(data.get("root"))
     engine.history = []
+    # Permanent rule numbers, level by level (true branch before false), so R1..Rn never shift
+    queue, next_id = [engine.root], 1
+    while queue:
+        node = queue.pop(0)
+        if node is None:
+            continue
+        node.rule_id = next_id
+        next_id += 1
+        queue.extend([node.right, node.left])
     return engine
+
+
+def next_rule_id(root: Optional[Node]) -> int:
+    """The number for a newly added rule: one more than the highest number in the tree."""
+    highest, stack = 0, [root]
+    while stack:
+        node = stack.pop()
+        if node is not None:
+            highest = max(highest, getattr(node, "rule_id", 0) or 0)
+            stack.extend([node.left, node.right])
+    return highest + 1
 
 
 def engine_to_dict(engine: "RDREngine") -> dict:

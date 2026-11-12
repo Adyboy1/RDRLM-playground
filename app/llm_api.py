@@ -118,8 +118,14 @@ def _load_cache_file():
 _load_cache_file()
 
 
-def export_cache() -> dict:
+_used_keys: set = set()
+
+
+def export_cache(used_only: bool = False) -> dict:
+    """Returns cached answers; with used_only, just those read or written since startup."""
     with _cache_lock:
+        if used_only:
+            return {k: v for k, v in _cache.items() if k in _used_keys}
         return dict(_cache)
 
 
@@ -137,6 +143,7 @@ def _generate(kind: str, prompt: str, config: dict) -> str:
     """Calls Gemini with caching and rate-limit retries. Raises LLMUnavailableError on failure."""
     key = _cache_key(kind, prompt)
     with _cache_lock:
+        _used_keys.add(key)
         if key in _cache:
             return _cache[key]
 
