@@ -49,12 +49,38 @@ class Node:
         self.left: Optional[Node] = None
         self.right: Optional[Node] = None
 
+LOG_HEADER = [
+    "Date",
+    "Time",
+    "Action",
+    "File_Path",
+    "Last_True_Node",
+    "Last_Eval_Node",
+    "Revision_Triggered",
+    "Condition_Type",
+]
+
+
 class RDREngine:
-    def __init__(self):
+    def __init__(self, in_memory_log: bool = False):
         self.root: Optional[Node] = None
         # Stack: [(parent_node, side, new_node, source_file)]
         self.history: List[Tuple[Optional[Node], str, Node, str]] = []
-        self._init_log()
+        # In-memory logging keeps each demo visitor's events private to their session
+        # instead of appending to the shared CSV file on disk.
+        self.in_memory_log = in_memory_log
+        self.event_rows: List[list] = []
+        if not in_memory_log:
+            self._init_log()
+
+    def events_csv(self) -> str:
+        """Returns the in-memory event log as CSV text (header included)."""
+        import io
+        buf = io.StringIO()
+        writer = csv.writer(buf)
+        writer.writerow(LOG_HEADER)
+        writer.writerows(getattr(self, "event_rows", []))
+        return buf.getvalue()
 
     def _init_log(self):
         """Initialize the CSV log with headers."""
@@ -95,18 +121,22 @@ class RDREngine:
                 if not n: return "None"
                 return f"[{id(n)}] {n.vertex.rule.conclusions[:30]}..."
 
+            row = [
+                date_str,
+                time_str,
+                action,
+                file_path,
+                node_str(n_true),
+                node_str(n_eval),
+                str(rev_triggered),
+                cond_type # Write condition type
+            ]
+            if getattr(self, "in_memory_log", False):
+                self.event_rows.append(row)
+                return
             with open(LOG_FILE, mode='a', newline='', encoding='utf-8') as f:
                 writer = csv.writer(f)
-                writer.writerow([
-                    date_str,
-                    time_str,
-                    action,
-                    file_path,
-                    node_str(n_true),
-                    node_str(n_eval),
-                    str(rev_triggered),
-                    cond_type # Write condition type
-                ])
+                writer.writerow(row)
         except Exception as e:
             logging.error(f"Logging failed: {e}")
 
@@ -114,11 +144,14 @@ class RDREngine:
         last_tried_node: Optional[Node] = None
         last_true_node: Optional[Node] = None
         current_node: Optional[Node] = self.root
+        # Every rule evaluated on the way down, with its outcome, for explaining the result
+        self.last_trace: List[Tuple[Node, bool]] = []
 
         while current_node:
             last_tried_node = current_node
             condition = current_node.vertex.rule.conditions
             is_true = llm_check_condition(current_patient_summary,condition)
+            self.last_trace.append((current_node, is_true))
 
             if is_true:
                 last_true_node = current_node
@@ -199,6 +232,8 @@ class RDREngine:
         self._log_event("FLUSH_TREE", "N/A", None, None, "N/A", "N/A")
         self.root = None
         self.history = []
+        if getattr(self, "in_memory_log", False):
+            return  # Demo/session engines never touch the shared tree file
         if os.path.exists(TREE_STORAGE_FILE):
             try:
                 os.remove(TREE_STORAGE_FILE)
@@ -211,6 +246,51 @@ class RDREngine:
     def revise(self, transcript_path: str):
         # Legacy CLI method - kept for compatibility
         pass
+
+# --- JSON (de)serialization: used for the demo seed tree ---
+
+def node_to_dict(node: Optional[Node]) -> Optional[dict]:
+    if node is None:
+        return None
+    return {
+        "conditions": json.loads(node.vertex.rule.conditions) if _is_json_list(node.vertex.rule.conditions) else node.vertex.rule.conditions,
+        "conclusion": node.vertex.rule.conclusions,
+        "cornerstone_summary": node.vertex.summary,
+        "source": getattr(node, "source", None),
+        "true_branch": node_to_dict(node.right),
+        "false_branch": node_to_dict(node.left),
+    }
+
+
+def node_from_dict(data: Optional[dict]) -> Optional[Node]:
+    if not data:
+        return None
+    conds = data["conditions"]
+    cond_str = json.dumps(conds) if isinstance(conds, list) else str(conds)
+    node = Node(Vertex(Rule(cond_str, data["conclusion"]), data.get("cornerstone_summary", "")))
+    node.source = data.get("source")
+    node.right = node_from_dict(data.get("true_branch"))
+    node.left = node_from_dict(data.get("false_branch"))
+    return node
+
+
+def engine_from_dict(data: dict, in_memory_log: bool = True) -> "RDREngine":
+    """Builds a fresh engine from a JSON tree. Seed nodes are not in the undo history."""
+    engine = RDREngine(in_memory_log=in_memory_log)
+    engine.root = node_from_dict(data.get("root"))
+    engine.history = []
+    return engine
+
+
+def engine_to_dict(engine: "RDREngine") -> dict:
+    return {"root": node_to_dict(engine.root)}
+
+
+def _is_json_list(text) -> bool:
+    try:
+        return isinstance(json.loads(text), list)
+    except (TypeError, ValueError):
+        return False
 
 # --- Persistence Helpers ---
 

@@ -1,5 +1,5 @@
-streamlit
-google-generativeai
+streamlit>=1.50
+google-genai>=1.0
 graphviz
 firebase-admin
 python-docx

@@ -1,0 +1,122 @@
+[
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay, so I'm just gonna ask you a couple of more background questions."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Okay."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Do you use any tobacco products, or smoke cigarettes?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "No, I would bum cigarettes in college, but I was never a smoker."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. How about in the last year?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "No, not really anything."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. And how often do you have a drink containing alcohol?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Um, a few times a week. Uh, Wednesdays, I'll go to happy hour and have about two or three. And then, um, Thursdays, seven, um, seven or eight. Fridays, probably just a couple of glasses of wine with dinner. Um, but Saturdays are bigger night. And I would probably have a few drinks before I went to the bar. And then have four or five at when-when I was out. So\u2014"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. So it sounds like you're drinking about four times a week, anywhere between three and eight drinks on a given day. So, maybe around 20 drinks a week?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "I guess, it sounds like a lot when you say [chuckles] like that. But yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. Do you use any street drugs like any marijuana, cocaine, heroin?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "No. I-I smoked weed in college, but just a little bit. I wasn't a regular smoker."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Do you, um, do you ever use any prescription medicines that were not prescribed for you, or ever use your own prescriptions in a way on which they were not prescribed?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "No."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. So, you know, as we said before, you're drinking-- it sounds like you're drinking about 20 drinks a week, over the course of a few days. And I did want to point out to you that the recommended limit for women is actually no more than seven drinks a week, and no more than three on a given day."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Okay."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So you're doing more than that right now. And when you drink more than this amount, it puts you at risk for a number of things, okay? Things like greater risk of injury, damage to different parts of your body, um, just a bunch of different problems. And, uh-- so I'm going to recommend that you cut down- cut down that amount to the recommended limit. Again, that's no more than seven drinks a week and no more than three on a given day. Do you think you could do that? Would that be a good goal for you?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "That's a lot to change. I don't know."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Yeah, I know that making changes isn't always easy. But when you drink more than what's recommended, it creates problems. You know, you said you hurt your ankle when you came out of the bar this time."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "I mean, the stairs were really steep. So\u2014"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Yeah. Well, it's possible you strained your ankle as a result of the alcohol. You know, it can actually affect your balance and stability. So, really, you know, for where you are right now, you're drinking a good amount more than what's recommended. And, you know, I want you to be healthy. And I don't want to see you coming back in here for something else. So I'm really gonna recommend that you try to cut down to that amount. So, do you think you could do that, cut down to no more than three drinks on a given day?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Where are these limits from? Um, old- an older population? Because, uh, I drink just as much as my friends do. I mean, everybody drinks like I drink. I'm not even the biggest drinker in my group. So I'm pretty middle of the road."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, it sounds like, you know, the amount you drink is pretty normal-"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "-amongst the people you typically drink with. But these limits are-- they're actually recommended for all adults. And studies have shown that when you drink more than this, it creates a bunch of problems like we talked about. So, you know, why do you think you drink the amount you drink?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "I don't know. It's what we do. It's-- this is how we have fun, I guess. It is fun."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Well, I think you can still have fun within these amounts. So that's what I'm gonna recommend. Um, I think this is a really good goal, and hopefully, we won't see any more injuries. Okay? So why don't you try that?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Okay."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "All right. Thank you so much."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Thanks."
+  }
+]

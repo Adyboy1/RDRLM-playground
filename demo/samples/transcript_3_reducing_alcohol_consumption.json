@@ -1,0 +1,110 @@
+[
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So now that we've discussed a little bit of your medical history and- and taking your vitals, I'd like to ask you a few more questions. The-"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Sure."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "-the rise in your blood pressure is concerning to me, so I'd like to gather a bit more information about your lifestyle."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Okay."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. Have you had any major stressful events recently or any change in your work situation?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Not really, I haven't been stressed. Uh, I've been working steady, you know, these days, I'm glad to have a job, I really am happy that I'm working, so."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Yeah, that's certainly true. I'd also like to ask about some health habits that can contribute to high blood pressure."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Okay."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay, do you smoke at all?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "I don't smoke. I smoked, you know, as a young adult, quit 20 years ago. I went cold turkey. I was proud of that, haven't even thought about smoking."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay, great. Um, do you drink alcohol, including beer or wine?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Uh, I do drink beer, I drink, you know, two to three pints on weekdays, sometimes on weekends, maybe four or five."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. Well, I'm concerned about the amount that you're drinking currently. It sounds like you're having about 15 to 20 drinks per week, and that's definitely more than what we would recommend and could certainly be contributing to your high blood pressure."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Well, I-- you know, my pressure has been high for years and, um, you know."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Well, according to your chart, your blood pressure has gone up since July, and you said that you've been drinking more recently, so do you see the connection there?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Maybe a little bit."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Alcohol can have some dangerous effects on your body. So along with contributing to high blood pressure, it can have a big impact on your liver, which you need to keep in mind. So your liver has several different roles in your body. First, it helps process excess fatty acids before they get distributed to the rest of your body. It also helps process alcohol and other drugs. So when you have an excess of alcohol, your liver can't work as efficiently and the fatty acids build up, and over time, your liver won't be able to work as well."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Okay."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. And how about the use of other drugs like cocaine, heroin, marijuana?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "I don't use heroin or cocaine. I've never even thought about using the hard drugs. Back in school, 20 years or so ago, I smoked reefer, you know. Once I got out of school, I haven't used that at all."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. Have you ever used any prescription medications that weren't prescribed for you or in a way that wasn't prescribed?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "No, I don't- I don't, uh, really like the idea of taking pills. Uh, as a matter of fact, a couple of years ago, I had this jaw surgery. They gave me a prescription for Percocet. I took one, maybe feel weird. I think they're still sitting in the medicine cabinet."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay, excellent. Well, it sounds to me like the increase in your drinking could certainly be contributing to your high blood pressure. I think decreasing the number of drinks that you have when you go out and maybe decreasing the number of times that you go to the bar each week could be the best thing that you can do for your health."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Well, I guess I'll try."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. And then we'll set up an appointment for about a month from now. We'll recheck your blood pressure and see how you're doing with all this, sound okay?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Okay."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay."
+  }
+]

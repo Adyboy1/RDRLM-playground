@@ -6,7 +6,7 @@ This project addresses the "black box" problem in AI-based psychological assessm
 
 ✨ Key Features
 
-Automated Transcript Processing: Parses raw therapy transcripts (.docx, .txt) into structured clinical summaries using LLMs.
+Automated Transcript Processing: Parses raw therapy transcripts (.json in AnnoMI format, .docx, .txt) into structured clinical summaries using LLMs.
 
 Interpretable AI (SCRDR): Classifies summaries using a binary decision tree where every conclusion is traceable to specific human-verified rules.
 
@@ -24,7 +24,7 @@ Frontend/UI: Streamlit
 
 Backend Database: Google Firebase (Firestore)
 
-LLM API: Google Gemini API (google-generativeai)
+LLM API: Google Gemini API (google-genai)
 
 Logic Engine: Custom Python Ripple Down Rules implementation
 
@@ -67,7 +67,7 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
 
 
-(Ensure streamlit, google-generativeai, firebase-admin, python-docx, and graphviz are in your requirements.txt)
+(Ensure streamlit, google-genai, firebase-admin, python-docx, and graphviz are in your requirements.txt)
 
 🔐 Configuration (Secrets Setup)
 
@@ -83,9 +83,15 @@ touch .streamlit/secrets.toml
 
 Copy the following template and fill in your specific details:
 
-.streamlit/secrets.toml
+app/.streamlit/secrets.toml (Streamlit reads secrets from the directory you run it in)
+
+API_KEY = "your-google-gemini-api-key-here"   # must be top-level, above any [section]
+
+GEMINI_MODEL = "gemini-2.5-flash-lite"        # required, top-level; change it here to switch models (no redeploy needed)
 
 [general]
+
+demo_mode = false   # omit or set true for the public demo: per-visitor seed tree, nothing saved, no Firebase needed
 
 Change this ID for different deployments/organizations!
 
@@ -94,8 +100,6 @@ This determines the Firestore collection where data is stored.
 e.g., "Org_A_Data", "Test_Environment", etc.
 
 app_id = "Development_Environment"
-
-GEMINI_API_KEY = "your-google-gemini-api-key-here"
 
 [firebase]
 
@@ -124,12 +128,22 @@ client_x509_cert_url = "[https://www.googleapis.com/robot/v1/metadata/x509/your-
 
 🏃‍♂️ Running the Application
 
-Once your environment is set up and secrets are configured, start the Streamlit server:
+Once your environment is set up and secrets are configured, start the Streamlit server from the app folder:
 
+cd app
 streamlit run app.py
 
 
 The application should now be accessible in your web browser at http://localhost:8501.
+
+🎬 Demo Mode (the default)
+
+Unless `demo_mode = false` is set, every visitor gets a private copy of a seed tree (demo/seed_tree.json) built from
+alcohol-use counselling transcripts in the public AnnoMI dataset (demo/samples/). Nothing is saved and Firebase is not used.
+To keep the walkthrough fast on a free-tier Gemini key, demo/llm_cache.json ships pre-computed answers for the samples.
+Rebuild both after changing the seed tree or the prompts:
+
+python scripts/build_seed_tree.py
 
 📖 How to Use the App
 

@@ -1,0 +1,470 @@
+[
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Thank you for coming in to see me today, Nina. I'm looking forward to getting to know you a little bit and hearing a little bit about you and what brought you in here today."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Um, my doctor referred me. He said I had to come because I've- I've been a little irresponsible with this pregnancy. Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. He's thinking you were a little irresponsible."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah. Um, he said that I was drinking too much with it. Um, I-I haven't been a lot, but he said it was still maybe, um, would screw things up."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "And you're feeling kind of concerned about that."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah. Yeah. Like I don't- I don't want to screw anything up with this baby, but, um, yeah, I'm just- I'm scared I already did."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. So, you're concerned about the consequences, and you really care about your baby, and you want to give your baby the best start you can."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Mm-hmm. Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "And you're wondering a little bit about this time that we're going to spend together."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah. He didn't really tell me what to expect. He just said, \"Go- go see her as well.\""
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So here you are today and, um, you're sharing that you have been drinking alcohol throughout your pregnancy."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah. Um, I didn't find out I was pregnant until probably two-ish months in-"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "-and I had already been drinking then. Um, I've been really trying not to, but, you know, weekends come around, and, um, all my friends are kind of partying and stuff, and it's been hard to, like, break that habit."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Mm-hmm. So, there's this external pressure coming from the people you care about to sort of stay in the scene."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "A little bit. I think if I- if I talk to them, it would be fine, but it's-it's weird, right? Like I'm the only one of my friends that's, like, taking this step and having a kid, and they don't really know how to handle that."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Kind of feels like You're between two worlds. In one world, you're preparing to be a mother and bring a baby into this world, and this other world is the world that you've been in for a while where you're kind of having a good time and-"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "-drinking and your friends are-"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, like, I'm- I'm still, like, I'm only in my 20s, and-and for everyone else, it's like, \"Okay, it's party time,\" and now I kind of have to, like, break out of that."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. So, this party-time world's- are you feeling like this is something you want to move out of and move into that mom world? Or does it feel like I want to hang out there still too?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "There's, yeah, there's part of me that still wants to live that out because I'm not going to have another chance, like once this kid comes, it's-it's going to be over. I know I'm gonna- I know I'm going to have to change."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, for you, you're feeling like once the baby comes and actually in your arms, then things are going to change, but right now, while you're pregnant, you're thinking, \"I can kind of hang out in both worlds a little bit,\" but part of you may be thinking maybe that's not the case. It's time to go to the mom world maybe."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah. Probably. And I'm also feeling like it's too late. I already screwed it up."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. So, you've got a lot of concerns about what's happened to- up until this point, as far as your drinking. What do you know about, um, drinking alcohol throughout pregnancy?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Well, I know, like, they say not to, but I thought because my friends didn't really care, I thought, \"Okay. Like maybe-maybe it doesn't matter. Maybe it's just what they tell you.\" Just like drinking, in general, is bad."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, you were thinking because your-your friends weren't pressuring you to stop drinking, that-that it must be okay."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "And then there's this other part of you that's- was thinking maybe it's not okay."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, like, I should probably have trusted my gut."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, your gut is telling you what? Tell me about that."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "It's telling me that what I'm doing is wrong and it's probably hurting my kid and that- that I'm gonna really regret that once I actually get my kid."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "And you really wanna do what's best for your babe. And kind of wondering, um, how to move forward from here, is that where you wanna, you know, kind of focus in on, or what are your thoughts about giving up drinking altogether?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Um, I'm definitely it's not-- I think I could probably do it. It's just- it-it comes hard when you're, like, in that moment. You're around your friends and they're drinking and you don't wanna be- you don't wanna be the mom at that moment. You wanna be yourself. You wanna be who you were before."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, you kind of have this identity, dual identity going on. I wanna be that person, yet, that person-"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "And so many people, when they have kids, they just vanish from their friends. And I don't wanna be that person. I don't wanna be that person that just has a kid and they're completely-completely different."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Mm. So, embraces this life of the picket fence and the, you know, the little house and having the baby in this-"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, suburbs. Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, you don't wanna be that- that- that woman that's just sort of living in this house with the baby carriage, and at the same time, that world's kind of saying it's behind you."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, I-I guess. Like, I don't wanna- I don't wanna lose my friends because of this. And I don't wanna put pressure on them to change because they're, I mean, they're good people. They're just\u2014"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "You care about them."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "It's just the scene that they're-they're still in because their life maybe hasn't taken that change that your life has made. And so now, you're here and you're not sure. You want the baby, but you're not sure about the suburbs and the picket fence thing. You're not sure\u2014"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "I don\u2019t want that."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "You don't want that."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "No."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "You want this baby."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "And you wanna be, um, take care of your baby as the baby's growing."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Like, I wanna- I wanna be responsible for this thing."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "You don't wanna let your baby down."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "No."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "And at the same time, it's hard to let go of the past, but on the other hand, you're thinking, \"I don't have a choice. I've got to look this way.\" Is that kind of what it feels like?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "I guess so. I feel like I've already made a choice and already made some bad choices with this."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Nina, I'm wondering, what's your hope for the future? When you think about where you are today, um, what do you hope for when you look ahead?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Well, I-I kept the kid because I wanted-- It was almost like that push, that sign for me to, like, move forward and become like an adult because it's scary, right? Like I-I still feel like a teenager sometimes. And having that push to be a real person is really-- It's a lot of pressure and I-I want to raise this kid well. I don't wanna- I don't wanna let my kid down. I don't wanna, you know, I don't wanna regret choosing to have this kid because I think it's the right time, but I don't wanna- I don't wanna make mistakes that make me realize maybe I'm not ready for this 'cause sometimes it feels like I'm not ready for this."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "You put your heart there that the baby is really- it was almost kind of like a sign for you that was saying, \"This baby is giving you a kind of a new chance at life, or giving you a plan B,\" and you guys both get to decide what plan B is gonna look like."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, I just guess it's easier said than done though. Like, it's, like, great, I can make all these changes and I can be a completely new person, but it's, like, at the end of the day, I'm still just who I am."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "While this baby's growing in you and you think of all the opportunities that could come out of this, there's a part of you that says, \"I'm still that same girl that was drinking and partying,\" and-and maybe not living the life you wanted to live."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah. And I'm just- you know, you can't just one day flick a switch and become a new person."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "While this baby feels like this is your second chance, you're wondering, \"Do I deserve that second chance?\" And then this other part of you that says, \"Why not? It's here and I wanna go for it.\""
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, I guess that voice is just a little more stifled by the other one."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Mm-hmm. You got a lot of people around you that are kind of pulling it down, and it's kind of taking you back to the old life. And the baby is a constant reminder that there\u2019s this new life ahead."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, it's gonna be very different when it actually comes."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "When you think about, you know, embracing this new life, and taking that different path, turning away from path A and moving into path B, how confident are you that you can take path B and be successful in raising this baby, and letting go with the drinking and the life that you were in-in path A?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "I think I'm gonna have to be successful. I don't really- I don't have any other choice. Like I have to- I have to take that path."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Mm-hmm. Tell me more about that, what makes you say, \"I have to take that path\"? What makes you feel like you need that?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Because I need to for my kid. It's- it's gonna be all screwed up if I don't."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "This part of you that says, \"I don't have an option to-to-to make this life better,\" it's wondering, \"Do I have the confidence to be able to make that life a reality?\" What do you think you need to increase your confidence that you can do this?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "I don't know, like, maybe- maybe actually talking to my friends and saying like- or maybe them actually being able to see this kid and go, \"Of course, of course, your- your choice makes sense. You--\" Maybe it would, you know, give them a wake-up call too if They actually, like, see it."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So you're thinking that, um, once your friends see you with the baby in your arms that they too will see that there's a different path for them too?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Or at least they'll feel less pressure to be who they want me to be."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Mm, kind of feel like you're pulled between two worlds there."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "A little bit."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "It's not easy to be in that world and also having that constant reminder that the baby is coming and this baby is saying, \"I want this better life,\" and you want to give the baby a better life too. Who can support you, do you think when-when you look around who's in your circle right now, who do you think can support you in moving towards path B?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Definitely my parents, um, and I probably need to, uh, go and meet some other-other people who are maybe, you know, having kids too so that I can see, like how it's done 'cause like, I only have a younger brother who's like not-not even close to that. So I don't really have anyone in my life that I know that's had kids recently. So I-I would like to meet other, you know, young moms out there who, you know, are kind of struggling with the same stuff I am."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "And your parents are a support for you and support you from giving up the drinking, the alcohol use, that's something that they would support-"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "I don't think they realize, uh, that I'm doing it or how much I'm doing it."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "And I know that if they found out, they would be really pissed."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "That would be a concern for them as well as for you now."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Yeah. Is that something that, um, maybe you and I could meet again about-and talk about having those conversations with-with the family, maybe having conversations about, you know, the folks, your-your friends that are currently in the lifestyle that you were involved with, um, and then sort of what it would look like to go down path B, is that something that you would be open to meeting with me about again?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "I think so, yeah, like the telling my parents and [unintelligible 00:13:45] this to my parents is probably the scariest thing."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Mm-hmm."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "And having to talk to those friends, like right now I don't want to do that. It's- it puts them in a weird place."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Kind of feels like you're climbing Mt. Everest."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "And you don't have equipment."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "It feels like I have to lec- I don't wanna have to lecture them and I don't want it to be like a lecture."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "You're concerned that they're gonna kind of treat you like a child."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "My parents or my friends?"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Oh, oh, you're talking about your friends."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, lecture my-- Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "You're wondering if they're gonna kind of be like children and you're gonna be like the parent saying-"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, and I don't wanna be like that."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "You just wanna be like peers talking."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "And you want them to support you."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "I wanna stay friends with them. I don't want- I don't want them to just-"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "You don't wanna lose your support group, yeah. You just wanna them to support you in being healthy, while helping them, raising the babe, and so we're just taking path B. You don't wanna lose them, just maybe the lifestyle it sounds like."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, like if there's a- if there's a balance between maybe not the paths, but the worlds, if there's a balance between that-"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Mm. You kind of wanna have the best of both worlds."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "I want the friends and the relationship that I get from my friends, and at the same time, I don't want the party scene that goes with that."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, like I-I know I just can't cut off my friends altogether."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Well, Nina, you know yourself best, and you know, you know, you know what your world looks like and what those, you know, like, you know the support that your friends give you and the support that you get from your family, you know that. And I-I really just wanna support you in being able to make those choices and have those conversations, and I wanna do whatever I can to support you with that. Um, and I'm just wondering if maybe we can kind of pick this up, um, in a next visit, but before we go there, I'm just wondering, is there some steps that you would be willing to kind of take or consider, uh, with-with regards to your drinking?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Um yeah, like I'm so close anyways, that I know I need to now. Um, and I just also, like, have I completely screwed this up, like, is it already too late?"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "You're concerned about the health of your baby. I just would love to share with you, Nina, that every day without alcohol is a good day for your baby, and you know, starting today to have zero alcohol is a great start, and I'm wondering if that's the sort of something you'd be open to as no more alcohol at this point."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Mm-hmm, I have to do."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay, sounds like this is really important to you. You want to make this happen."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Is there anything that I can support you with before we wrap up as far as giving up alcohol today?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "I don't think so. I think just knowing that it's not too late already is enough kick in the pants to get started."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "You kind of got a reality check today."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "A little bit."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "You did really well talking with me today, and I thank you so much for just sharing your heart."
+  }
+]

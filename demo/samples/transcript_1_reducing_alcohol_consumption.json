@@ -1,0 +1,150 @@
+[
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "And before you leave, uh, is it okay if we go over this screening form that you filled out today on your alcohol use?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Sure."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. Uh, thanks for filling this out. Uh, looks like you use alcohol two to three days a week?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah, but only on the weekend."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. And then when you do drink alcohol, you typically have five or six drinks."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah. Uh, maybe a couple more."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. Well, the reason why I like to talk to patients when they fill out this form is because sometimes, uh, alcohol use can impact our health. Um, and my role is to be helpful. I can share some information with you about alcohol use, um, but I don't tell anyone what to do. It's always up to the patient to decide what they wanna do about their drinking. Um, so is it okay if we talk a little bit more about your alcohol use?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "So, uh, are you saying I drink too much?"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "How would you define drinking too much?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Well, I-- If-if I was getting fallen down drunk or if I drink every night. Um, it's not like I get sloppy drunk or anything."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Mm-hmm. Well, in this country, the guidelines are men can drink up to 14 drinks a week or up to four on one occasion and still be low risk."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "So I'm already at the week limit. And then I have four beers a night. Are you sure?"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So a limit of four a night doesn't feel right to you?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "I have five or six beers when I go out with friends to a bar. It's not a problem for me."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "You're not alone in feeling that way. Uh, binge drinking can feel normal to some people."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Well, I don't consider my drinking binge drinking."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Why is that?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "I don't chug a lot of beers in a row. I have about five or six beers throughout the entire evening."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Mm-hmm. Well, technically, we define binge drinking as having more than four drinks on one occasion."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "But I'm healthy. What health problems are you talking about?"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Well, uh, we know if someone binge drinks over time, there's kind of two categories of risk. There's the short-term risk where someone who binge drinks is more likely to fall down, hurt themselves through an accident, uh, they're more likely to drive while under the influence. Uh, but over the long term, binge drinking can also, uh, cause things like heart disease, uh, different kinds of cancer, liver problems obviously, and then even mental health issues like depression and anxiety are more likely to happen."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Well, I didn't know about those things."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Can I ask you, uh, what do you like about drinking alcohol?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Well, I-I like beer. I like the way it tastes, I like the way it makes me feel. Uh, like when I'm around friends and it's not a problem for me."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "And so what about your drinking do you not like or is there anything that worries you about your drinking?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Well, that was fine until I came here, uh, but now that I know about the health risk, uh, I have something I gotta think about."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, on one hand, you like how beer tastes, uh, it's part of your social life to some extent, um, but on the other hand, you don't like the idea of it posing risks to your health over the long term?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "E-exactly."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So weighing those things, you know, what you like about your drinking, what you don't like about your drinking, uh, where do you wanna go from here? Uh, what would you like to change about your drinking?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Hmm, I'm not sure. Uh, something I have to think about."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Well, how about hypothetically if I were to ask you, how would your drinking have to impact your life in order for you to be ready to change your drinking?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Uh, I don't know. Maybe if I got sick or something, uh, maybe I'd wanna change things then."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So if you experienced a negative consequence from your drinking, uh, that would feel meaningful to you?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yeah."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. Well, I like to give this handout to patients. Uh, it defines risky drinking, it talks about what the consequences are, uh, and it also lists signs of what an alcohol use disorder is. So thanks again for taking the time to fill this out and being honest with me, uh, to talk about it. I provide better care, uh, when I know about my patient's substance use. When we come back for a three-month follow-up appointment for your ADHD, I'd also like to talk to you and check in about your alcohol use too, if that's okay with you."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Sounds good."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay, great. See you next time."
+  }
+]

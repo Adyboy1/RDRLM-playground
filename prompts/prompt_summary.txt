@@ -53,7 +53,7 @@ Rules for Therapy quality feedback:
 4. Ignore Irrelevance: Long explainations form paitents, other interruptions to sessions.
 5. Ratings: Excellent- Skill is highly developed, helpful to patient even in the face of patient difficulties, well-timed and consistently well- performed = 4; Good; Skill performed appropriately; minimal problems and/or consistencies, well-timed but not always performed = 3; Adequate- skill performed adequately with some problems and/or inconsistencies = 2 ; Poor- inappropriate performance with major problems evident; skill delivery is not useful in session = 1; Not at all, skill not performed = 0
 
-Structure your Therapy quality feedback into exactly these four paragraphs:
+Structure your Therapy quality feedback into exactly these six paragraphs:
 
 [Paragraph 1: Demographics & Presenting Problem]
 Summarize the client's age group (e.g., young adult), gender (if stated), and the primary reason for the visit. Describe the core complaint in qualitative terms.
@@ -72,6 +72,9 @@ Detail specific examples of things said by the client and how the therapist can 
 
 [Paragraph 6: Scores for each skill]
 Provide score for each skill, sub scale total scores and full scale total scores.
+
+Output layout:
+Write the Clinical Prototype Summary first. Then write a line containing only ===THERAPY QUALITY FEEDBACK=== and then the Therapy quality feedback. Use that separator line exactly once.
 
 Inputs:
 

@@ -1,0 +1,218 @@
+[
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Thanks for filling it out. We give this form to everyone once a year regardless of why they come in. It helps us provide better care. Is it okay if I take a look at what you put down?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Sure."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, let's see. It looks that you put-- You drink alcohol at least four times a week on average-"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Mm-hmm."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "-and you usually have three to four drinks when you do drink."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Usually three drinks and glasses of wine."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. That's at least 12 drinks a week."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Something like that."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. Just so you know, my role, um, when we talk about alcohol use, is just to share information about risk and to help patients who want help. This is different than telling them what I think they should do. I don't do that."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Okay."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Uh, what else can you tell me about your drinking."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Well, I usually drink when I'm at home trying to unwind and I drink while I'm watching a movie. And sometimes, um, I take a bath but I also drink when I take a bath sometimes."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. So, can I share with you some information on alcohol use?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Okay."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. So, there has been a lot of research on alcohol use and the guidelines we use in this country says that having seven or more drinks per week can raise the risk of health problems for women."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Hmm. Seven?"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Seven."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Wow. I knew my doctor didn't like me drinking the amount that I did but I didn't know that seven was the limit."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Yeah, you're surprised to hear that?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yes. What-what kind of health problems?"
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Well things like heart disease, cancer, liver problems, uh, stomach pains, insomnia. Unfortunately, uh, people who drink at a risky level are more likely to be diagnosed with depression and alcohol can make depression worse or harder to treat."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Hmm. Well, that's not good news."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Well, how do you think your drinking relates to the depression you've experienced?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Well, to be honest, I drink sometimes when I'm feeling down and I find it more interesting and not so blur."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. And how do you feel after you drink?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Well, then I feel blur again."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, there are some answers on this form here. Uh, less than monthly you drank more than you intended to."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yes on occasion."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "And sometimes you feel guilty after you drink."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Sometimes I just don't like how much I drink. I sometimes finish a bottle in one night."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So you're not proud of finishing a bottle?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "No, it's not like I get crazy or anything but I just don't like the amount that I'm drinking."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Right. By the way, binge drinking is defined for women as having more than, uh, three drinks and there are about five drinks in a bottle. So, you enjoy drinking wine because it helps make things, uh, a little bit more interesting when you're feeling down but at the same time you don't like drinking when you have more than you want it to and then the depression returns after you drink."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Mm-hmm. Yes, sometimes I feel worse after drinking."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Where do you wanna go from here? What do you wanna change about your drinking habits?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Well, I don't think that I'm ready to cut down to seven drinks a week. That seems like a lot but I would consider cutting back to two drinks a night. I think that would be my goal."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "If I gave you a scale from 0 to 10, 0 being not ready at all to cut back on drinking and 10 being very ready, what number would you be at?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "I'd say an eight."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. Why do you think it's not something less like a six?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Well, I'm more ready than a six because I'm ready to cut back on my drinking and I don't wanna make my depression any worse."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "What would help you cut back to two drinks?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Maybe having less wine in the house."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Having less wine in the house will help?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yes."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "What else besides drinking helps you relax and unwind in the evenings?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Well, I like to watch movies, read a book, and take a bath but sometimes I drink when I take a bath."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "So, it's not just wine that helps you relax. Um, there's reading a book, watching a movie, and taking a hot bath too."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Mm-hmm. Yes."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Okay. So, it sounds like you have some reasons to cut back on drinking and you have ways to relax besides drinking and it sounds like you're pretty ready to cut back."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Yes."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Great. I'd be interested to see how well you do on your goal in the next few weeks. Would you be willing to come back and talk to me about it?"
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Sure."
+  },
+  {
+    "interlocutor": "therapist",
+    "utterance_text": "Great. So, let's see how well you're doing with these new meds."
+  },
+  {
+    "interlocutor": "client",
+    "utterance_text": "Okay."
+  }
+]
