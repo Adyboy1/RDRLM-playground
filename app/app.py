@@ -398,7 +398,9 @@ with st.sidebar:
         st.markdown("---")
         # Filled in at the end of the script, after this run's actions have been counted
         usage_slot = st.empty()
-        st.caption("Transcripts: AnnoMI, a public dataset of counselling demonstration videos. "
+        st.caption("Transcripts from [AnnoMI](https://github.com/uccollab/AnnoMI) "
+                   "([Wu et al., ICASSP 2022](https://doi.org/10.1109/ICASSP43922.2022.9746035)), "
+                   "a public dataset of counselling demonstration videos. "
                    "No real patient data. Educational demo, not for clinical use.")
 
 # --- FLASH MESSAGE ---
