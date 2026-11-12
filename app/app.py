@@ -264,16 +264,16 @@ def build_graph(root, trace=None, conclusion_node=None):
     outcome = {id(n): ok for n, ok in (trace or [])}
 
     dot = graphviz.Digraph()
-    dot.attr(rankdir='TB', nodesep='0.5', ranksep='0.8', bgcolor='transparent')
+    dot.attr(rankdir='TB', nodesep='0.3', ranksep='0.45', bgcolor='transparent')
     dot.attr('node', shape='Mrecord', style='filled', fillcolor='#F0F2F6', color='#9AA0A6',
-             fontname='Arial', fontsize='10', margin='0.1')
-    dot.attr('edge', fontname='Arial', fontsize='9')
+             fontname='Arial', fontsize='10', margin='0.06,0.04')
+    dot.attr('edge', fontname='Arial', fontsize='9', arrowsize='0.6')
 
     if not root:
         dot.node("empty", "Empty Tree", style='dashed')
         return dot
 
-    wrapper = textwrap.TextWrapper(width=28, break_long_words=False, replace_whitespace=False)
+    wrapper = textwrap.TextWrapper(width=34, break_long_words=False, replace_whitespace=False)
 
     def esc(text):
         for ch in '{}|<>"':
@@ -662,7 +662,8 @@ st.subheader("🌳 Knowledge base")
 if engine.root:
     trace = st.session_state.trace if st.session_state.get("interpretation_result") else []
     conclusion_node = st.session_state.interpretation_result[1] if st.session_state.get("interpretation_result") else None
-    st.graphviz_chart(build_graph(engine.root, trace, conclusion_node), width="stretch")
+    # Natural size (shrinks to fit if the tree grows wider than the page) instead of stretching to full width
+    st.graphviz_chart(build_graph(engine.root, trace, conclusion_node), width="content")
     st.caption("Read top-down: if a rule's conditions hold, follow **True**, otherwise **False**. "
                "Green/red shading shows the rules checked for the current case; the bold outline marks the rule that gave the conclusion.")
 
